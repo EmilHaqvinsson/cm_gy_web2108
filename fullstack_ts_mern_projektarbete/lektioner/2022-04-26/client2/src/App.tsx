@@ -1,7 +1,10 @@
 import css from './App.module.css'
 import Alive from './components/Alive'
+import CreateUser from './components/user/CreateUser'
+import DeleteUser from './components/user/DeleteUser'
 import GetAllUsers from './components/user/GetAllUsers'
 import GetUserById from './components/user/GetUserById'
+import UpdateUser from './components/user/UpdateUser'
 
 function App() {
 	return (
@@ -14,9 +17,9 @@ function App() {
 					<GetUserById/>
 				</div>
 				<div>
-					<p>Create user</p>
-					<p>Update user</p>
-					<p>Delete user</p>
+					<CreateUser/>
+					<UpdateUser/>
+					<DeleteUser/>
 				</div>
 			</div>
 		</>
